@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1281cbd5c395b10d902dc61227d46682",
+    "content-hash": "d59ce4a95b39aba8fcc7f853c8a930c5",
     "packages": [
         {
             "name": "consolidation/annotated-command",
@@ -2616,16 +2616,16 @@
         },
         {
             "name": "ec-europa/qa-automation",
-            "version": "dev-feature/MULTISITE-21458",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ec-europa/qa-automation.git",
-                "reference": "55e1006bb00de1e7463e682ea73e317f8816675f"
+                "reference": "060fc33116e91b09a0969a2dc0f9b0592a8cc531"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ec-europa/qa-automation/zipball/55e1006bb00de1e7463e682ea73e317f8816675f",
-                "reference": "55e1006bb00de1e7463e682ea73e317f8816675f",
+                "url": "https://api.github.com/repos/ec-europa/qa-automation/zipball/060fc33116e91b09a0969a2dc0f9b0592a8cc531",
+                "reference": "060fc33116e91b09a0969a2dc0f9b0592a8cc531",
                 "shasum": ""
             },
             "require": {
@@ -2652,7 +2652,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Performs automated QA checks and extra php codesniffs for the subsite starterkit.",
-            "time": "2019-06-04T12:11:55+00:00"
+            "time": "2019-06-04T14:04:48+00:00"
         },
         {
             "name": "phpcompatibility/php-compatibility",
@@ -2796,8 +2796,7 @@
     "stability-flags": {
         "cweagans/composer-patches": 20,
         "kasperg/phing-github": 20,
-        "pear/versioncontrol_git": 20,
-        "ec-europa/qa-automation": 20
+        "pear/versioncontrol_git": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
