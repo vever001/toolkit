@@ -139,14 +139,10 @@ class DrupalCommands extends Drupal8Commands {
   'prefix' => getenv('DRUPAL_DATABASE_PREFIX'),
   'host' => getenv('DRUPAL_DATABASE_HOST'),
   'port' => getenv('DRUPAL_DATABASE_PORT'),
-  'namespace' => 'Drupal\\\\Core\\\\Database\\\\Driver\\\\mysql',
   'driver' => 'mysql',
 );
 {$additionalSettings}
-\$settings['hash_salt'] = '{$hashSalt}';
-
-// Location of the site configuration files, relative to the site root.
-\$config_directories['sync'] = '../config/sync';
+\$drupal_hash_salt = '{$hashSalt}';
 
 // Load environment development override configuration, if available.
 // Keep this code block at the end of this file to take full effect.
