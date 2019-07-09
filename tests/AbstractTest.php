@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types = 1);
-
 namespace EcEuropa\Toolkit\Tests;
 
 use PHPUnit\Framework\TestCase;

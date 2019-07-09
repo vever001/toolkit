@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types = 1);
-
 namespace EcEuropa\Toolkit\TaskRunner\Commands;
 
 use OpenEuropa\TaskRunner\Commands\Drupal8Commands;

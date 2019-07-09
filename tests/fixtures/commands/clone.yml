@@ -8,7 +8,7 @@
           ->exec('./vendor/bin/drush sql-drop -y')
           ->exec('./vendor/bin/drush sqlc < dump.sql')
           ->exec('./vendor/bin/drush updatedb -y')
-          ->exec('./vendor/bin/drush cache:rebuild')
+          ->exec('./vendor/bin/drush cache-clear all')
     - notContains: |
         >  The dump file dump.sql does not exist.
 

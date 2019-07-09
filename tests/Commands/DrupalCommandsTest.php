@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types = 1);
-
 namespace EcEuropa\Toolkit\Tests\Commands {
   use EcEuropa\Toolkit\Tests\AbstractTest;
   use OpenEuropa\TaskRunner\TaskRunner;

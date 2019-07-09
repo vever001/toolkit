@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types = 1);
-
 namespace EcEuropa\Toolkit\TaskRunner\Commands;
 
 use OpenEuropa\TaskRunner\Commands\AbstractCommands;
@@ -57,7 +55,7 @@ class CloneCommands extends AbstractCommands {
       ->exec('./vendor/bin/drush sql-drop -y')
       ->exec('./vendor/bin/drush sqlc < ' . $options['dumpfile'])
       ->exec('./vendor/bin/drush updatedb -y')
-      ->exec('./vendor/bin/drush cache:rebuild');
+      ->exec('./vendor/bin/drush cache-clear all');
 
     // Build and return task collection.
     return $this->collectionBuilder()->addTaskList($tasks);
