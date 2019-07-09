@@ -11,10 +11,10 @@
         "source": "https://github.com/ec-europa/toolkit"
     },
     "require": {
-        "php": ">=5.5",
+        "php": ">=5.6.0",
         "drupal/drupal-extension": "^3.4 || ^4.0",
         "drush/drush": "^8",
-        "ec-europa/qa-automation": "^3",
+        "ec-europa/qa-automation": "^4.0.0",
         "guzzlehttp/guzzle": "^6.3",
         "openeuropa/task-runner": "^1.0.0-beta5"
     },
@@ -38,7 +38,7 @@
     "config": {
         "sort-packages": true,
         "platform": {
-            "php": "5.5.9"
+            "php": "5.6.0"
         }
     }
 }

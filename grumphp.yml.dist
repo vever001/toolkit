@@ -6,6 +6,7 @@ parameters:
     - tests/fixtures
   tasks.phpcs.triggered_by:
     - php
+  tasks.git_commit_message.matchers: []
 
   extensions:
     - OpenEuropa\CodeReview\ExtraTasksExtension
