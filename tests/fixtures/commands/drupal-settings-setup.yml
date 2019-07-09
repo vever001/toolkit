@@ -50,7 +50,7 @@
 
         // Start Toolkit settings block.
 
-        $databases['default']['default'] = array (
+        $databases['default']['default'] = array(
           'database' => getenv('DRUPAL_DATABASE_NAME'),
           'username' => getenv('DRUPAL_DATABASE_USERNAME'),
           'password' => getenv('DRUPAL_DATABASE_PASSWORD'),
@@ -87,7 +87,7 @@
 
         // Start Toolkit settings block.
 
-        $databases['default']['default'] = array (
+        $databases['default']['default'] = array(
           'database' => getenv('DRUPAL_DATABASE_NAME'),
           'username' => getenv('DRUPAL_DATABASE_USERNAME'),
           'password' => getenv('DRUPAL_DATABASE_PASSWORD'),

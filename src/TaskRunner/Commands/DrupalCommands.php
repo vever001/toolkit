@@ -132,7 +132,7 @@ class DrupalCommands extends Drupal8Commands {
 
 {$this->blockStart}
 
-\$databases['default']['default'] = array (
+\$databases['default']['default'] = array(
   'database' => getenv('DRUPAL_DATABASE_NAME'),
   'username' => getenv('DRUPAL_DATABASE_USERNAME'),
   'password' => getenv('DRUPAL_DATABASE_PASSWORD'),
